@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    max-width: 1200px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+
+}
+img{
+    height: 100%;
+}
