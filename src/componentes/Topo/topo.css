@@ -1,23 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
+header {
+  padding: 15px 10px;
 }
-.topo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-    max-width: 1200px;
-    height: 70px;
-    box-sizing: border-box;
-    margin: 0 auto;
+.topo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-a{
-    text-decoration: none;
+.topo img {
+  width: 150px;
+}
+.topo a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 5px;
+}
+@media (max-width: 550px) {
+  .topo {
+    flex-direction: column;
+  }
+  .topo a {
     padding: 10px;
-    color: #000;
-
-}
-img{
-    height: 100%;
+    margin: 10px;
+    border-top: 1px solid #aaadaf;
+  }
 }

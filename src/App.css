@@ -1,9 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-.body{
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
+.limitasecao{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
 }
